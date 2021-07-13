@@ -1,0 +1,8 @@
+body{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.card-img-top{
+    min-height: 15vh;
+    max-height: 25vh;
+}
