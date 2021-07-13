@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+
+    <title>POO3</title>
+  </head>
+  <body>
+    <h1>Ejercicio HTML + JAVA</h1>
+<form class="row g-3 needs-validation" action="NewServlet" method="post">
+  <div class="col-md-5">
+    <label for="validationCustom01" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="nombre" name="inputnombre" placeholder="Juan" required>
+    <div class="valid-feedback">
+      
+    </div>
+  </div>
+  <div class="col-md-5">
+    <label for="validationCustom02" class="form-label">Apellido</label>
+    <input type="text" class="form-control" id="apellido" name="inputapellido" placeholder="Perez" required>
+    <div class="valid-feedback">
+     
+    </div>
+  </div>
+  <div class="col-md-5">
+    <label for="validationCustom03" class="form-label">Curso</label>
+    <input type="text" class="form-control" id="curso" name="inputcurso" placeholder="curso actual que realizan" required>
+    <div class="invalid-feedback">
+      Tenes que agregar un curso
+    </div>
+  </div>
+    <div class="col-md-5">
+    <label for="validationCustom03" class="form-label">Comision</label>
+    <input type="number" class="form-control" id="comision" name="inputcomision" placeholder="numero de comision" required>
+    <div class="invalid-feedback">
+      Tenes que agregar una comision
+    </div>
+  </div>
+      <div class="col-md-10">
+    <label for="validationCustom03" class="form-label">Descripcion</label>
+    <textarea type="text" class="form-control" id="descripcion" name="inputdescripcion" required></textarea>
+    <div class="invalid-feedback">
+      Tenes que agregar una descripcion
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Guardar datos</button>
+  </div>
+</form>
+
+    <script src="bootstrap\js/bootstrap.min.js" ></script>
+    <script src="newjavascript.js" ></script>
+  </body>
+</html>
