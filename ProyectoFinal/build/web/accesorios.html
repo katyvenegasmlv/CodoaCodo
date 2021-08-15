@@ -1,0 +1,92 @@
+<%-- 
+    Document   : accesorios
+    Created on : Jul 27, 2021, 5:35:27 PM
+    Author     : kvenegas3
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <title>Accesorios</title>
+    </head>
+    <body>
+       <div>
+            <div id="header">
+                <div>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="nav-link" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+         <a class="nav-link" href="indumentaria.html">Indumentaria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="zapatillas.html">Calzado</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="accesorios.html">Accesorios</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Equipamiento
+          </a>
+          <ul class="dropdown-menu" id="colormenu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" id="coloritem" href="musculacion.html">Musculación</a></li>
+            <li><a class="dropdown-item" id="coloritem" href="yoga.html">Yoga/Pilates</a></li>
+            <li><a class="dropdown-item" id="coloritem" href="nutricion.html">Nutricion y Bienestar</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+       <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="imagenes/mochila.PNG" class="card-img-top" id="tam-im" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mochila Air 2.0</h5>
+        <a class="btn btn-primary" href="login.jsp" role="button">Comprar</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="imagenes/rinonera.PNG" class="card-img-top" id="tam-im" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Riñonera Everyday</h5>
+        <a class="btn btn-primary" href="login.jsp" role="button">Comprar</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="imagenes/botinera.PNG" class="card-img-top" id="tam-im" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Botinera 5.0</h5>
+        <a class="btn btn-primary" href="login.jsp" role="button">Comprar</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="imagenes/bolso.PNG" class="card-img-top" id="tam-im" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bolso Duff 9.0</h5>
+        <a class="btn btn-primary" href="login.jsp" role="button">Comprar</a>
+      </div>
+    </div>
+  </div>
+</div>    
+    <script src="bootstrap/js/bootstrap.min.js" ></script>  
+    <script src="login.js" ></script>
+    </body>
+</html>
